@@ -1,5 +1,5 @@
 # Topology-Evaluation
-Evaluate the Betti numbers and Euler characteristics for the segmentations.
+Evaluate the Betti numbers and Euler characteristics for the 3D segmentation maps.
 
 ## Overview
 
