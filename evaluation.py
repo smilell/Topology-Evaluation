@@ -11,7 +11,7 @@ import gudhi as gd
 
 
 
-def compute_topological_features_3d(map):
+def compute_topological_features(map):
     """
     Evaluate the topology of a given map.
 
@@ -80,7 +80,7 @@ def main():
 
     dseg = dseg[min_0:max_0, min_1:max_1, min_2:max_2]
 
-    betti_number_list, ec = compute_topological_features_3d(map=dseg, )
+    betti_number_list, ec = compute_topological_features(map=dseg, )
 
 
     print('0-dimensional Betti number (# of connected components)   : {}'.format(betti_number_list[0]))
