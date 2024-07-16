@@ -30,18 +30,6 @@ To use this script, you need to have a map represented as a numpy array. The scr
     ```
     `compute_topological_features()` : Takes a numpy array representing the map as input and returns a tuple containing the Betti numbers (0-dimensional, 1-dimensional, and 2-dimensional) and the Euler characteristic of the map.
 
-## Example
-```python
-import numpy as np
-from evaluation import compute_topological_features
-
-# Example map
-example_map = np.random.rand(100, 100)
-betti_numbers, euler_characteristic = compute_topological_features(example_map)
-
-print("Betti Numbers:", betti_numbers)
-print("Euler Characteristic:", euler_characteristic)
-```
 ### Acknowledegment
 This project is developed based on the code originally developed by Priscille de Dumast. 
 If you have any questions, please contact liu.li20@imperial.ac.uk
